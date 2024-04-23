@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+</head>
+<style>
+.container{
+    display: flex;
+    background-color: dodgerblue;
+}
+div{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+
+}
+.div1{
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: row;    
+
+}
+.div2{
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: row-reverse;    
+
+}
+.div3{
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: column;  
+
+}
+.div3  div{
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.div4 {
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: column-reverse;  
+}
+.div4 div{
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+}
+.div5 {
+    display: flex;
+    background-color: dodgerblue;
+    flex-wrap: nowrap;  
+}
+.div5 div{
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+}
+.div6 {
+    display: flex;
+    background-color: dodgerblue;
+    flex-wrap: wrap;  
+}
+.div6 div{
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 75px;
+}
+.div7 {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;  
+}
+.div7 div{
+    width: 100px;
+    margin: 20px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+.div8 {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: flex-start; 
+}
+.div8 div{
+    width: 100px;
+    margin: 20px;
+
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.div9 {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: flex-end;
+}
+.div9 div{
+    width: 100px;
+    margin: 20px;
+
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.div10 {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-around;
+}
+.div10 div{
+    width: 100px;
+    margin: 20px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+</style>
+<body>
+  <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div> 
+   <hr>
+   <div class="div1">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    
+</div> 
+<div class="div2">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+<div class="div3">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+<div class="div4">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+<div class="div5">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+<div class="div6">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+<div class="div7">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+<div class="div8">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+<div class="div9">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+<div class="div10">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div> 
+</body>
+</html>

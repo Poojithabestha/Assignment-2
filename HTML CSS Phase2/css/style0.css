@@ -1,0 +1,20 @@
+
+ul {
+  list-style-type: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.navbar {
+  height: 30px;
+  background-color: #0f1111;
+}
+ul,li {
+  display: inline;
+}
+li,
+a {
+  text-decoration: none;
+}
